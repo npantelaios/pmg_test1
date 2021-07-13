@@ -98,6 +98,7 @@ clean_list = [
             "Chikorita",
             "Bayleef",
             "Cranidos",
+            "EMPTY",
             ]
 
 if __name__ == "__main__":
