@@ -12,7 +12,7 @@ This is an automated attempt to produce the League chart, for every user that co
 
 1) Complete the form (image proof in the form of /vp/ image is required in Question1)
 
-(Form Example): **https://docs.google.com/forms/d/1FHNGyT0nfjWmr4CbF62tj8ar6e45Q9u8pnS-Esd7V14/edit**
+(Form Example): **https://forms.gle/NmEZXPMBE8pBvvzz8**
 
 **------------------------------------------------------------------------------------------------------------**
 
