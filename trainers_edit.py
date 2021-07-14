@@ -5,7 +5,7 @@ def main():
 
 def trainers_convert() -> None:
     trainers = []
-    with open("trainers_raw.csv", newline='') as csvfile:
+    with open("trainers/trainers_raw.csv", newline='') as csvfile:
         csv_lines = csv.reader(csvfile, delimiter=',')
         prev_line = ''
         for i, row in enumerate(csv_lines):
@@ -24,7 +24,7 @@ def trainers_convert() -> None:
                 trainer_name = beautify_name(trainer_name)
                 if trainer_name not in trainers:
                     trainers.append(trainer_name)
-    with open("trainers_full.csv", 'w') as outfile:
+    with open("trainers/trainers_full.csv", 'w') as outfile:
         for trainer in trainers:
             outfile.write(trainer)
             outfile.write('\n')

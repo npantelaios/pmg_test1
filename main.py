@@ -161,7 +161,7 @@ def create_white_line() -> Image:
 
 def init_dict() -> dict:
     out_dict = {}
-    with open("trainers_full.csv", 'r') as fin:
+    with open("trainers/trainers_full.csv", 'r') as fin:
         trainers = fin.read().splitlines()
     for trainer in trainers:
         out_dict[trainer] = 0
@@ -177,7 +177,7 @@ def check_if_duplicates(my_list: list) -> bool:
 def create_fake_numbers_to_test() -> None:
     out_dict = {}
     randomize_range = 20
-    with open("trainers_full.csv", 'r') as fin:
+    with open("trainers/trainers_full.csv", 'r') as fin:
         trainers = fin.read().splitlines()
     for trainer in trainers:
         rand = random.randrange(1, randomize_range+1)
