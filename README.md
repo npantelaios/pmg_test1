@@ -18,7 +18,7 @@ This is an automated attempt to produce the League chart, for every user that co
 
 **Results**
 
-Chart is produced in folder **charts_database/*.png**, you can change this in the first line of "main.py"
+Chart is produced in folder **charts_database/*.png**, you can change this in the first line of **main.py**
 
 **------------------------------------------------------------------------------------------------------------**
 
@@ -28,9 +28,9 @@ All responses need to be verified by matching the Google Form response with the 
 
 **Reproduction**
 
-1) Download the Form responses in folder **responses_csv/*.csv**, you can change this in the second line of "main.py"
+1) Download the Form responses in folder **responses_csv/*.csv**, you can change this in the second line of **main.py**
 
-(Form Example): https://docs.google.com/forms/d/1FHNGyT0nfjWmr4CbF62tj8ar6e45Q9u8pnS-Esd7V14/edit
+**Form Source for downloading responses:** https://docs.google.com/forms/d/1FHNGyT0nfjWmr4CbF62tj8ar6e45Q9u8pnS-Esd7V14/edit?usp=sharing
 
 2) Run command
 
