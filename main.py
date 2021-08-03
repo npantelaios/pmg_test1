@@ -57,6 +57,7 @@ def count_responses() -> dict:
 def convert_trainer2number(in_dict: dict) -> dict:
     out_dict = {}
     for k, v in in_dict.items():
+        v = int(v)
         if v in out_dict.keys():
             out_dict[v].append(k.strip('"'))
         else:
@@ -103,6 +104,8 @@ def create_chart(in_dict: dict) -> None:
             total_img = merge_img_vertically(total_img, img_line)
         total_img = add_white_line_below(total_img)
         line += 1
+    newsize = (int(total_img.width / 4), int(total_img.height / 4))
+    total_img = total_img.resize(newsize)
     total_img.save(output_filename)
 
 
