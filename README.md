@@ -26,7 +26,7 @@
 
 1. Add trainer name in file: "trainers/trainers_full.csv" as a new row, row order doesn't matter
 
-2. Add trainer image in folder: **images_hd/**. Image name should be the same as trainer name added in step1. (eg. Trainer name = Accerola*Mimikyu and image name: Accerola_Mimikyu.png). Don't use special characters except underscore('*'). Trainer name also needs to be added in the file you add the **number of usages for each trainer**(See: How to RUN, step 1)
+2. Add trainer image in folder: **images_hd/**. Image name should be the same as trainer name added in step1. (eg. Trainer name = Accerola\*Mimikyu and image name: Accerola_Mimikyu.png). Don't use special characters except underscore('\_'). Trainer name also needs to be added in the file you add the **number of usages for each trainer**(See: How to RUN, step 1)
 
 **------------------------------------------------------------------------------------------------------------**
 
