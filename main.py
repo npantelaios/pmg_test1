@@ -104,8 +104,9 @@ def create_chart(in_dict: dict) -> None:
             total_img = merge_img_vertically(total_img, img_line)
         total_img = add_white_line_below(total_img)
         line += 1
-    newsize = (int(total_img.width / 4), int(total_img.height / 4))
-    total_img = total_img.resize(newsize)
+
+    if total_img.height > 5000: #/vp/ image size limit   
+        total_img = total_img.resize((int(total_img.width * 5000/total_img.height), 5000))
     total_img.save(output_filename)
 
 
