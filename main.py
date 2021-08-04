@@ -105,8 +105,10 @@ def create_chart(in_dict: dict) -> None:
         total_img = add_white_line_below(total_img)
         line += 1
 
-    if total_img.height > 5000: #/vp/ image size limit   
-        total_img = total_img.resize((int(total_img.width * 5000/total_img.height), 5000))
+    if total_img.height > 5000:  # /vp/ image size limit
+        total_img = total_img.resize(
+            (int(total_img.width * 5000 / total_img.height), 5000)
+        )
     total_img.save(output_filename)
 
 
@@ -269,24 +271,22 @@ def return_timestamp_now():
 colours = [
     "#FFFFFF",
     "#FF4400",
-    "#DAD322",
+    "#FFA617",
     "#FFF700",
-    "#40A56C",
     "#08FD00",
+    "#40A56C",
+    "#0A3DC7",
+    "#17DFFF",
     "#00FFE6",
-    "#0022FF",
-    "#7700FF",
     "#FF00FF",
     "#A811E9",
-    "#837A82",
+    "#FF0000",
 ]
 
 
 # input_filename = "responses_csv/" + "unova_week2" + ".csv"
 # output_filename = 'charts_database/' + "unova2_week2" + ".png"
-input_filename = (
-    "PUT_YOUR_SPREADSHEET_HERE_2_COLUMNS/DONT_RENAME_CHANGE_NUMBERS_FROM_0.csv"
-)
+input_filename = "PUT_YOUR_SPREADSHEET_HERE_2_COLUMNS/demo_sample.csv"
 timestamp_now = str(return_timestamp_now())
 output_filename = "OUTPUT_RESULT_HERE/a" + timestamp_now + ".png"
 print(output_filename)
