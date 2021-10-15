@@ -18,7 +18,7 @@
 
 **------------------------------------------------------------------------------------------------------------**
 
-**SOME TRAINERS MISSING?** -> The trainers were last updated up until August 25, 2021, trainers released after that may be missing
+**SOME TRAINERS MISSING?** -> The trainers were last updated up until October 27, 2021, trainers released after that may be missing
 
 **------------------------------------------------------------------------------------------------------------**
 

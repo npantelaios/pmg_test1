@@ -286,7 +286,8 @@ colours = [
 
 # input_filename = "responses_csv/" + "unova_week2" + ".csv"
 # output_filename = 'charts_database/' + "unova2_week2" + ".png"
-input_filename = "PUT_YOUR_SPREADSHEET_HERE_2_COLUMNS/demo_sample.csv"
+# input_filename = "PUT_YOUR_SPREADSHEET_HERE_2_COLUMNS/demo_sample.csv"
+input_filename = "PUT_YOUR_SPREADSHEET_HERE_2_COLUMNS/DONT_RENAME_CHANGE_NUMBERS_FROM_0.csv"
 timestamp_now = str(return_timestamp_now())
 output_filename = "OUTPUT_RESULT_HERE/a" + timestamp_now + ".png"
 print(output_filename)
